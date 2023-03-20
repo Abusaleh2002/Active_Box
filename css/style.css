@@ -232,7 +232,7 @@ h6 {
 
 }
 .crosal_main{
-  padding: 2.9rem;
+  padding: 5.2rem;
 
 }
 /*slider-section end */
@@ -318,8 +318,22 @@ h6 {
     font-size: 16px;
 
 }
-
-
-
-
 /*Footer-section end */
+
+@media  (max-width: 1200px) {
+    .slider_div .crosal_main{
+        padding: 2.9rem;
+      
+      }
+  }
+@media  (max-width: 992px) {
+    .slider_div .crosal_main{
+        padding: 1.9rem;
+      
+      }
+    .slider_div h5{
+        font-size: 20px;
+        line-height: 1.4rem;
+      
+      }
+  }
